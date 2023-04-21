@@ -6,33 +6,40 @@
     <title>TALLER 1 | DAVID DIAZ</title>
 </head>
 <body>
-<h1 style="text-align: center"><%= "TALLER 1" %>
-</h1>
+    
+    <div class="container">
+        <h1 style="text-align: center"><%= "TALLER 1" %>
+        </h1>
 
-<div class="container">
-    <div class="card" style="width: 50%; margin-left: auto; margin-right: auto; padding: 5%;">
-        <form>
 
-            <div class="mb-3">
-                <label class="form-label">Nombre:</label>
-                <input type="text" class="form-control" required>
-            </div>
+    
+    <section>
+    
+        <div class="card" style="width: 50%; margin-left: auto; margin-right: auto; padding: 5%;">
+            <form action="" method="post">
 
-            <div class="mb-3">
-                <label class="form-label">Apellido:</label>
-                <input type="text" class="form-control" required>
-            </div>
+                <div class="mb-3">
+                    <label class="form-label">Nombre:</label>
+                    <input type="text" class="form-control" required>
+                </div>
 
-            <div class="mb-3">
-                <label class="form-label">Correo:</label>
-                <input type="email" class="form-control" required>
-            </div>
-            <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Contraseña:</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" required>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+                <div class="mb-3">
+                    <label class="form-label">Apellido:</label>
+                    <input type="text" class="form-control" required>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Correo:</label>
+                    <input type="email" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Contraseña:</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        
+       <section>
     </div>
 
 </div>
