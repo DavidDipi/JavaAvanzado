@@ -8,41 +8,39 @@
 <body>
     
     <div class="container">
-        <h1 style="text-align: center"><%= "TALLER 1" %>
-        </h1>
+        <h1 style="text-align: center"><%= "TALLER 1" %></h1>
+
+        <section>
+
+            <div class="card" style="width: 50%; margin-left: auto; margin-right: auto; padding: 5%;">
+                <form action="" method="post">
+
+                    <div class="mb-3">
+                        <label for="firstName" class="form-label">Nombre:</label>
+                        <input type="text" id="firstName" class="form-control" placeholder="Ingrese su nombre" required autofocus pattern="[A-Za-z ]{2, 40}">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="lastName" class="form-label">Apellido:</label>
+                        <input type="text" id="lastName" class="form-control" placeholder="Ingrese su apellido" required autofocus pattern="[A-Za-z ]{2, 40}">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Correo:</label>
+                        <input type="email" id="email" class="form-control" placeholder="Ingrese su correo" required pattern="{,60}">
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Contraseña:</label>
+                        <input type="password" id="password" class="form-control" placeholder="Ingrese su contraseña" required pattern="">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+
+        </section>
 
 
-    
-    <section>
-    
-        <div class="card" style="width: 50%; margin-left: auto; margin-right: auto; padding: 5%;">
-            <form action="" method="post">
-
-                <div class="mb-3">
-                    <label class="form-label">Nombre:</label>
-                    <input type="text" class="form-control" required>
-                </div>
-
-                <div class="mb-3">
-                    <label class="form-label">Apellido:</label>
-                    <input type="text" class="form-control" required>
-                </div>
-
-                <div class="mb-3">
-                    <label class="form-label">Correo:</label>
-                    <input type="email" class="form-control" required>
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Contraseña:</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" required>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-        
-       <section>
     </div>
-
-</div>
 
 <br/>
 <a href="hello-servlet">Hello Servlet</a>
