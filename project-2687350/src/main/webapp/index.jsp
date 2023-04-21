@@ -8,7 +8,12 @@
 <body>
     
     <div class="container">
-        <h1 style="text-align: center"><%= "TALLER 1" %></h1>
+        
+        <header>
+            <h1 style="text-align: center"><%= "TALLER 1" %></h1>
+        </header>
+        
+        <nav></nav>
 
         <section>
 
