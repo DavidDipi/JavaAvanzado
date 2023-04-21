@@ -15,21 +15,21 @@
 
             <div class="mb-3">
                 <label class="form-label">Nombre:</label>
-                <input type="text" class="form-control">
+                <input type="text" class="form-control" required>
             </div>
 
             <div class="mb-3">
                 <label class="form-label">Apellido:</label>
-                <input type="text" class="form-control">
+                <input type="text" class="form-control" required>
             </div>
 
             <div class="mb-3">
                 <label class="form-label">Correo:</label>
-                <input type="email" class="form-control">
+                <input type="email" class="form-control" required>
             </div>
             <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label">Contraseña:</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
+                <input type="password" class="form-control" id="exampleInputPassword1" required>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
