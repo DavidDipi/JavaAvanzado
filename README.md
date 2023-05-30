@@ -12,6 +12,8 @@
 ### Contiene otro formulario de login
 
 ### 4 conexiones basicas a bases de datos
+### Repositorio de tablas: Usuario, productos, categorias
+### Formularios funcionales de registro
 
 #PANTALLAZOS DE LAS CONEXIONES
 
