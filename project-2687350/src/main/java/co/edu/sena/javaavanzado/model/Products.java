@@ -16,6 +16,12 @@ public class Products {
         this.category_id = category_id;
     }
 
+    public Products(String product_name, String product_value, Integer category_id) {
+        this.product_name = product_name;
+        this.product_value = product_value;
+        this.category_id = category_id;
+    }
+
     public Integer getProduct_id() {
         return product_id;
     }

@@ -49,7 +49,7 @@ public class CategoryRepositoryImpl implements Repository<Category>{
         int rowsAffected = 0;
 
         if (category.getCategory_id() != null && category.getCategory_id() > 0){
-            sql = "UPDATE categories_tbl SET category_id = ?, category_name = ? WHERE category_id = ?";
+            sql = "UPDATE categories_tbl SET category_name = ? WHERE category_id = ?";
         } else {
             sql = "INSERT INTO categories_tbl (category_name)" +
                     "VALUES(UPPER(?))";
@@ -58,10 +58,9 @@ public class CategoryRepositoryImpl implements Repository<Category>{
         try (Connection conn = ConnectionPool.getConnection();
              PreparedStatement ps = conn.prepareStatement(sql)
         ) {
-            ps.setInt(1, category.getCategory_id());
-            ps.setString(2, category.getCategory_name());
+            ps.setString(1, category.getCategory_name());
             if (category.getCategory_id() != null && category.getCategory_id() > 0){
-                ps.setInt(3, category.getCategory_id());
+                ps.setInt(2 , category.getCategory_id());
             }
 
             rowsAffected = ps.executeUpdate();
