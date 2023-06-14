@@ -1,4 +1,4 @@
-<%@include file="header.jsp"%>
+<%@include file="includes/header.jsp"%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <section>
@@ -7,4 +7,4 @@
     </div>
 </section>
 
-<%@include file="footer.jsp"%>
+<%@include file="includes/footer.jsp"%>
